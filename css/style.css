@@ -87,14 +87,17 @@
 	top: -223px;
             }
             #apDiv10 {
-            position: absolute;
-            width: 713px;
-            height: 39px;
-            z-index: 2;
-            left: -1px;
-            top: 206px;
+	position: absolute;
+	width: 713px;
+	height: 39px;
+	z-index: 2;
+	left: 119px;
+	top: 368px;
             }
         strong {
+	font-size: 15px;
+	font-weight: bold;
+	color: #003F5E;
 }
 div {
 	text-align: center;
@@ -287,9 +290,9 @@ h1{
 }
 h2{
 	font-family: Arial, Helvetica, sans-serif;
-	color: #1C2123;
+	color: #003F5E;
 	margin-left: 10px;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: center;
 	border-top: #006680;
 }
@@ -386,8 +389,8 @@ p{
 /*SEUDO CLASES*/
 p {
 	font-size: 12px;
-	font-weight: normal;
-	color: #333;
+	font-weight: bold;
+	color: #333333;
 }
 /***************************************/
 .dropdownmenu ul, .dropdownmenu li {
@@ -420,4 +423,129 @@ p {
 }
 .dropdownmenu li:hover a {
 	background: #FF6600;
+}
+      #apDiv28 {
+	position: absolute;
+	width: 490px;
+	height: 129px;
+	z-index: 13;
+	left: 138px;
+	top: 290px;
+}
+        #apDiv29 {
+	position: absolute;
+	width: 118px;
+	height: 124px;
+	z-index: 1;
+	top: 327px;
+	left: -41px;
+}
+        #apDiv30 {
+	position: absolute;
+	width: 337px;
+	height: 144px;
+	z-index: 2;
+	left: 122px;
+	top: 304px;
+}
+ #apDiv31 {
+	position: absolute;
+	width: 713px;
+	height: 31px;
+	z-index: 14;
+	background-color: #003F5E;
+	border-radius: 10px 0px 0px 0px;
+	top: 240px;
+	color: #FFF;
+}
+        #apDiv32 {
+	position: absolute;
+	width: 200px;
+	height: 25px;
+	z-index: 15;
+	color: #FFF;
+	left: 258px;
+	top: 246px;
+	font-weight: bold;
+}
+       
+        #apDiv33 {
+	position: absolute;
+	width: 112px;
+	height: 115px;
+	z-index: 16;
+	left: 172px;
+	top: 293px;
+}
+        #apDiv34 {
+	position: absolute;
+	width: 112px;
+	height: 115px;
+	z-index: 17;
+	left: 172px;
+	top: 425px;
+}
+        #apDiv35 {
+	position: absolute;
+	width: 112px;
+	height: 115px;
+	z-index: 18;
+	left: 172px;
+	top: 561px;
+}
+        #apDiv36 {
+	position: absolute;
+	width: 112px;
+	height: 115px;
+	z-index: 19;
+	left: 172px;
+	top: 698px;
+}
+        #apDiv37 {
+	position: absolute;
+	width: 112px;
+	height: 115px;
+	z-index: 20;
+	left: 172px;
+	top: 832px;
+}
+        #apDiv38 {
+	position: absolute;
+	width: 322px;
+	height: 134px;
+	z-index: 21;
+	left: 300px;
+	top: 266px;
+}
+        #apDiv39 {
+	position: absolute;
+	width: 321px;
+	height: 115px;
+	z-index: 22;
+	left: 301px;
+	top: 396px;
+}
+        #apDiv40 {
+	position: absolute;
+	width: 322px;
+	height: 115px;
+	z-index: 23;
+	left: 301px;
+	top: 532px;
+}
+        #apDiv41 {
+	position: absolute;
+	width: 321px;
+	height: 115px;
+	z-index: 24;
+	left: 302px;
+	top: 672px;
+}
+        #apDiv42 {
+	position: absolute;
+	width: 325px;
+	height: 115px;
+	z-index: 25;
+	left: 299px;
+	top: 805px;
 }

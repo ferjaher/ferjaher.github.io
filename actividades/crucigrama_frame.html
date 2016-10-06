@@ -414,7 +414,7 @@ function SelectThisWord(event)
 	}
 	
 	document.getElementById("wordlabel").innerHTML = TheirWord;
-	document.getElementById("wordinfo").innerHTML = ((CurrentWord <= LastHorizontalWord) ? "Across, " : "Down, ") + WordLength[CurrentWord] + " letters.";
+	document.getElementById("wordinfo").innerHTML = ((CurrentWord <= LastHorizontalWord) ? "Palabra, " : "Down, ") + WordLength[CurrentWord] + " letras.";
 	document.getElementById("wordclue").innerHTML = Clue[CurrentWord];
 	document.getElementById("worderror").style.display = "none";
 	document.getElementById("cheatbutton").style.display = (Word.length == 0) ? "none" : "";
@@ -452,19 +452,19 @@ function OKClick()
 	}
 	if (ContainsBadChars(TheirWord))
 	{
-		document.getElementById("worderror").innerHTML = "The word that you typed contains invalid characters.  Please type only letters in the box above.";
+		document.getElementById("worderror").innerHTML = "La palabra escrita contiene caracteres no válidos.  Por favor escriba solo letras en el cuadro de arriba.";
 		document.getElementById("worderror").style.display = "block";
 		return;
 	}
 	if (TheirWord.length < WordLength[CurrentWord])
 	{
-		document.getElementById("worderror").innerHTML  = "You did not type enough letters.  This word has " + WordLength[CurrentWord] + " letters.";
+		document.getElementById("worderror").innerHTML  = "No ha escrito suficientes caractres.  Esta palabra tiene " + WordLength[CurrentWord] + " letras.";
 		document.getElementById("worderror").style.display = "block";
 		return;
 	}
 	if (TheirWord.length > WordLength[CurrentWord])
 	{
-		document.getElementById("worderror").innerHTML = "You typed too many letters.  This word has " + WordLength[CurrentWord] + " letters.";
+		document.getElementById("worderror").innerHTML = "Ha escrito demasiadas letras.  Esta palabra tiene " + WordLength[CurrentWord] + " letras.";
 		document.getElementById("worderror").style.display = "block";
 		return;
 	}
@@ -538,7 +538,7 @@ function CheckClick()
 	else if (ErrorsFound > 0)
 		document.getElementById("welcomemessage").innerHTML = ErrorsFound + (ErrorsFound > 1 ? " errors were" : " error was") + " found.";
 	else if (EmptyFound > 0)
-		document.getElementById("welcomemessage").innerHTML = "No errors were found, but " + EmptyFound + (EmptyFound > 1 ? " incomplete words were" : " incomplete word was") + " found.";
+		document.getElementById("welcomemessage").innerHTML = "No se han encontrado errores, pero " + EmptyFound + (EmptyFound > 1 ? " palabras incompletas" : " palabras incompletas") + " se encontraron.";
 	
 	if (ErrorsFound + EmptyFound > 0)
 	{
@@ -580,8 +580,9 @@ function HashWord(Word)
 </td>
 
 <td valign="top" style="padding-left: 1em;"><div id="welcomemessage" class="ecw-answerbox" style="display:none;">
-  <h3>Welcome!</h3>
-<p>Click a word in the puzzle to get started.</p>
+  <h3>Bienvenido Estudiante UNAD!</h3>
+<p>
+Haga clic en una palabra en el crucigrama para empezar.</p>
 </div>
 
 <div id="answerbox" class="ecw-answerbox" style="display:none;">
@@ -594,29 +595,24 @@ function HashWord(Word)
 <div id="worderror" class="ecw-worderror"></div>
 
 <table border="0" cellspacing="0" cellpadding="0" width="100%" style="margin-top:1em;"><tbody><tr><td>
-<button id="cheatbutton" type="button" class="ecw-input ecw-button" onclick="CheatClick();">Solve</button>
+<button id="cheatbutton" type="button" class="ecw-input ecw-button" onclick="CheatClick();">Resolver</button>
 </td><td align="right">
-<button id="okbutton" type="button" class="ecw-input ecw-button" onclick="OKClick();" style="font-weight: bold;">OK</button> &nbsp;
-<button id="cancelbutton" type="button" class="ecw-input ecw-button" onclick="DeselectCurrentWord();">Cancel</button>
+<button id="okbutton" type="button" class="ecw-input ecw-button" onclick="OKClick();" style="font-weight: bold;">Aceptar</button> &nbsp;
+<button id="cancelbutton" type="button" class="ecw-input ecw-button" onclick="DeselectCurrentWord();">Cancelar</button>
 </td></tr></tbody></table>
 
 </div>
 
 <div id="congratulations" class="ecw-answerbox" style="display:none;">
-<h3>Congratulations!</h3>
-<p>You have completed this <a href="http://www.eclipsecrossword.com" style="color: black; text-decoration:none;">crossword puzzle</a>.
-</p>
-<p>If you would like to be able to create interactive
-<a href="http://www.eclipsecrossword.com" style="color: black; text-decoration:none;">crosswords</a>
-like this yourself, get <a href="http://www.eclipsecrossword.com" onclick="this.target='_blank'">EclipseCrossword</a>
-from Green Eclipse&mdash;it's free!
+<h3>Felicitaciones!</h3>
+<p>Has completado este <a href="http://www.eclipsecrossword.com" style="color: black; text-decoration:none;">crucigrama</a>.
 </p>
 </div>
 
 </td></tr></table>
 
 <div style="margin-top: 1em;">
-	<button id="checkbutton" type="button" onclick="CheckClick();" style="display: none;">Check puzzle</button>
+	<button id="checkbutton" type="button" onclick="CheckClick();" style="display: none;">Comprobar Crucigrama</button>
 </div>
 
 <script type="text/javascript"><!--

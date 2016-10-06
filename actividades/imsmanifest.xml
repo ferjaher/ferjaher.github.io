@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Creado con Ardora http://www.webardora.net-->
-<manifest identifier="ARD1102016172643" version="1"
+<manifest identifier="ARD6102016121339" version="1"
      xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
      xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -42,16 +42,16 @@
                   </classification>
              </lom>
         </metadata>
-        <organizations default="Ardora_ARD1102016172643C01">
-             <organization identifier="Ardora_ARD1102016172643C01" structure="heirarchical">
+        <organizations default="Ardora_ARD6102016121339C01">
+             <organization identifier="Ardora_ARD6102016121339C01" structure="heirarchical">
                 <title> Actividad</title>
-                  <item identifier="Ardora_ARD1102016172643C01A01" identifierref="IDREFARD1102016172643C01A01" isvisible="true">
+                  <item identifier="Ardora_ARD6102016121339C01A01" identifierref="IDREFARD6102016121339C01A01" isvisible="true">
                   <title>sopa_final2.htm</title>
                 </item>
              </organization>
         </organizations>
         <resources>
-            <resource identifier="IDREFARD1102016172643C01A01" type="webcontent" href="sopa_final2.htm"  adlcp:scormtype="sco">
+            <resource identifier="IDREFARD6102016121339C01A01" type="webcontent" href="sopa_final2.htm"  adlcp:scormtype="sco">
               <file href="sopa_final2.htm" />
             </resource>
          </resources>

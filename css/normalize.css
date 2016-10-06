@@ -188,7 +188,7 @@ sub {
 
 img {
 	border: 0;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
 }
 
 /**
@@ -475,4 +475,16 @@ div {
 }
 .class body footer #apDiv25 {
 	font-size: 11px;
+}
+p {
+	font-weight: normal;
+}
+.class body section article p {
+	font-size: 12px;
+}
+p {
+	font-size: 12px;
+}
+.class body section article p {
+	color: #000;
 }
