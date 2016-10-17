@@ -46,7 +46,7 @@ summary {
 	display: block;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	text-align: center;
+	text-align: left;
 }
 
 /**
@@ -487,4 +487,7 @@ p {
 }
 .class body section article p {
 	color: #000;
+}
+.class body section div article strong {
+	text-align: left;
 }
