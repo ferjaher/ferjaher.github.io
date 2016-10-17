@@ -651,6 +651,22 @@ p {
 	width: 90px;
 	height: 79px;
 	z-index: 16;
-	left: 41px;
-	top: 416px;
+	left: 43px;
+	top: 385px;
+}
+ #apDiv44 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 17;
+	left: 47px;
+	top: 811px;
+}
+        #apDiv45 {
+	position: absolute;
+	width: 462px;
+	height: 76px;
+	z-index: 18;
+	left: 3px;
+	top: 753px;
 }
