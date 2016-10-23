@@ -491,3 +491,18 @@ p {
 .class body section div article strong {
 	text-align: left;
 }
+p {
+	font-weight: normal;
+}
+.class body section #apDiv38 p {
+	font-weight: normal;
+}
+#apDiv38 {
+	font-weight: normal;
+}
+p {
+	font-weight: normal;
+}
+p {
+	color: #003F5E;
+}
